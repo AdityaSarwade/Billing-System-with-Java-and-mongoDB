@@ -1,6 +1,11 @@
-# Registration-Form-using-Java-and-MySQL
+# Billing-System-with-Java-and-mongoDB
 
 This repository contains the eclipse project to create a Java GUI which connects to your MongoDB database
+
+## Design
+| Java(Swing Toolkit) - Frontend GUI\
+| MongoDB - Backend Database\
+|  Maven - Dependencies
 
 ## Requirements
 - Eclipse IDE
