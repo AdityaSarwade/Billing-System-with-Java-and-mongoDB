@@ -19,11 +19,11 @@ public class mongoConnection {
 	
 	public void connect()
 	{
-			String url = "mongodb+srv://adityasarwade7:storebillsystem@cluster0.uhhakv8.mongodb.net/?retryWrites=true&w=majority";
+			String url = "<put your connection string here>";
 	    	try {
 	    		mongoClient = MongoClients.create(url);
-	    		database = mongoClient.getDatabase("Cluster0");
-	    		collection = database.getCollection("sales");
+	    		database = mongoClient.getDatabase("<your database name here>");
+	    		collection = database.getCollection("<your collection name here>");
 	    		
 	    	}
 	    	catch(MongoException e1){
